@@ -1,4 +1,4 @@
-class CreateDog.rb < ActiveRecord::Migration
+class CreateDog < ActiveRecord::Migration
   def up
     create_table :dogs do |t|
       t.string :name
