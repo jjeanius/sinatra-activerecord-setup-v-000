@@ -1,5 +1,9 @@
 class CreateDog.rb < ActiveRecord::Migration
   def up
+    create_table :dogs do |t|
+      t.string :name
+      t.sting :breed
+    end
   end
 
   def down
